@@ -1,0 +1,32 @@
+{
+  "name": "ng-lego",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/main.js",
+  "typings": "dist/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HsuanXyz/ng-lego.git"
+  },
+  "author": "Hsuan Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HsuanXyz/ng-lego/issues"
+  },
+  "homepage": "https://github.com/HsuanXyz/ng-lego#readme",
+  "dependencies": {
+    "ts-simple-ast": "^11.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.0",
+    "ts-node": "^6.1.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.1"
+  }
+}
